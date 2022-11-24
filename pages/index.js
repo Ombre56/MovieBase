@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
+import Link from 'next/link';
 import starImg from '../public/star.png';
 
 export default function Home() {
@@ -16,11 +17,12 @@ export default function Home() {
 
         <div className={styles.title}>
           <h1 className={styles.logo}>
-            Kaem Films
+            <Link href='/'>Kaem Films</Link>
           </h1>
 
           <input className={styles.input} type="text" placeholder="Wyszukaj film..." />
-          <button className={styles.button1}>+ DODAJ FILM</button>
+
+          <Link href="/add" className={styles.button1}>+ DODAJ FILM</Link>
 
         </div>
 
@@ -29,6 +31,7 @@ export default function Home() {
         <div className={styles.container3}>
 
           <Image className={styles.star} src={starImg} alt='/' />
+
 
           <div className={styles.row1}>
             <div className={styles.film}>
@@ -40,8 +43,8 @@ export default function Home() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </div>
               <div className={styles.descdetails}>
-                <div>Tłumaczenie:</div>
-                <div>Rok produkcji:</div>
+                <div>Tłumaczenie: HELOŁ</div>
+                <div>Rok produkcji: 2022</div>
               </div>
             </div>
           </div>

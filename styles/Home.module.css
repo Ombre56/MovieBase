@@ -48,18 +48,21 @@
 }
 
 .button1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 10%;
   height: 40%;
   font-style: normal;
   font-size: 140%;
   font-weight: bold;
-  outline-offset: 3px;
-  outline-color: black;
   background: white;
   color: #0C6D00;
+  border-radius: 10px;
 }
 
 .button1:hover {
+  color: white;
   background: #bdbdbd;
 }
 
