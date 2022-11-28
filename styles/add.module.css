@@ -44,6 +44,17 @@
     background: white;
     color: black;
     font-size: larger;
+    border: none;
+    padding-left: 10px;
+}
+
+.textarea{
+    background: white;
+    color: black;
+    font-size: larger;
+    border: none;
+    padding-left: 10px;
+    padding-top: 10px;  
 }
 
 .button1 {
@@ -118,6 +129,14 @@
     height: 300px;
 }
 
+.container7 {
+    position: absolute;
+    left: 400px;
+    top: 350px;
+    width: 40%;
+    height: 300px;
+}
+
 .tytuł {
     font-size: 35px;
 }
@@ -142,6 +161,14 @@
     height: 300px;
 }
 
+.container8 {
+    position: absolute;
+    left: 400px;
+    top: 750px;
+    width: 40%;
+    height: 300px;
+}
+
 .tłumaczenie {
     font-size: 35px;
 }
@@ -160,13 +187,13 @@
     width: 10%;
     height: 50px;
     right: 50px;
-    top: 1000px;
-    font-style: normal;
+    top: 900px;
     font-size: 140%;
     font-weight: bold;
     border-radius: 10px;
     background: yellow;
     color: #be981b;
+    cursor: pointer;
 }
 
 .button2:hover {
