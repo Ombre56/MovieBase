@@ -13,7 +13,7 @@ const welcomeMovie = {
   };
 
 
-function Movie() {
+export default function Movie() {
   return (
     <>
       <div className={styles.star}>
@@ -45,5 +45,3 @@ function Movie() {
     </>
   )
 }
-
-export default Movie

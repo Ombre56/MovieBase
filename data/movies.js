@@ -23,4 +23,12 @@ export const movies = [
     "translation": "Lektor",
     "thumbnail": "/assets/images/Predator-thumbnail.png",
   },
+  {
+    "id": 4,
+    "title": "The Witcher",
+    "description": "Wiedźmin to epicka opowieść na podstawie kultowej sagi fantasy Andrzeja Sapkowskiego. Geralt z Rivii, samotny zabójca potworów, usiłuje odnaleźć się w świecie, w którym ludzie bywają gorsi niż bestie, na które poluje. Przeznaczenie splata jego losy z potężną czarodziejką i skrywającą groźną tajemnicę młodą księżniczką. Razem muszą stawić czoła licznym zagrożeniom na pogrążającym się w chaosie Kontynencie.",
+    "date_year": "2019",
+    "translation": "Lektor",
+    "thumbnail": "/assets/images/Witcher-thumbnail.png",
+  }
 ];

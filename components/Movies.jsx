@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { useState, useEffect } from 'react'
 import styles from '../styles/Home.module.css';
 
@@ -38,15 +39,17 @@ export default function Movies() {
       {Object.values(data).map((movie) => {
         return (
           <li key={movie.id} className={styles.showcase}>
-            <div className={styles.show}>
-              <Image
-                src={movie.thumbnail}
-                width='320'
-                height='170'
-                layout='responsive'
-                alt='The Witcher'
-              />
-            </div>
+            <Link href={`/movie/${movie.id}`}>
+              <div className={styles.show}>
+                <Image
+                  src={movie.thumbnail}
+                  width='320'
+                  height='170'
+                  layout='responsive'
+                  alt='The Witcher'
+                />
+              </div>
+            </Link>
               <div className={styles.showInfo}>
                 <div>{movie.title}</div>
                 <div>{movie.date_year}</div>
